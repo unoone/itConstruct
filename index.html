@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
+    <script async src="js/index.js"></script>
+</head>
+
+<body>
+    <header class="back">
+        <div class="container">
+            <div id="top">
+                <div class="logo-wrapper outer-shadow">
+                    <img class="logo" src="assets/logo.png" alt="лого">
+                    <h1 class="logo-title">company</h1>
+                </div>
+                <div class="info shadow">
+                    <div class="info-wrapper title-wrapper ">
+                        <h1 class="info-title">Нанотехнологии здоровья</h1>
+                    </div>
+                    <div class="info-wrapper contacts flex">
+                        <a href="#" target="_blank" id="email">info@company.ru</a>
+                        <a href="#" target="_blank" id="phone-number">+7 (383) 349-18-49</a>
+                    </div>
+                </div>
+            </div>
+            <div id="submenu-wrapper" class="outer-shadow">
+                <div id="submenu" class="flex">
+                    <div id="auth" class="flex">
+                        <form id="auth-form" action="">
+                            <label class="label-auth"> Логин:
+                                <input class="input-auth" type="text">
+                            </label>
+                            <label class="label-auth"> Пароль:
+                                <input class="input-auth" type="text">
+                            </label>
+                            <button id="auth-button" class="log-on distance">Войти</button>
+                        </form>
+                        <a href="#" target="_blank" id="login" class="log-on distance">
+                            Войти
+                        </a>
+                    </div>
+                    <div class="registation">
+                        <a href="#" target="_blank" class="log-on">
+                            Регистрация
+                        </a>
+                    </div>
+                    <div id="basket" class="flex ">
+                        <img class="basket-icon" src="assets/icon.png" alt="значок корзины">
+                        <span class="basket-info">
+                            В
+                            <a href="#" target="_blank">корзине </a>
+                            товаров - 12
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="section-menu">
+        <div class="container">
+            <button id="menu-button">Меню</button>
+            <ul id="menu" class="flex">
+                <li>
+                    <a href="#" target="_blank">Главная</a>
+                </li>
+                <li id="catalog-desktop">
+                    <a href="#" target="_blank">Каталог</a>
+                </li>
+                <li id="catalog-mobile">
+                    <button id="catalog-button">Каталог</button>
+                </li>
+                <li>
+                    <a href="#" target="_blank">О компании</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Новости</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Доставка и оплата</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="main-content" class="flex">
+            <div id="side-menu">
+                <div id="catalog">
+                    <p class="catalog-title title">Каталог</p>
+                    <ul id="catalog-menu">
+                        <li id="menu-item1">
+                            <a href="#" target="_blank">Электронные сигареты</a>
+                        </li>
+                        <li id="menu-item2">
+                            <a href="#" target="_blank">Трубки</a>
+                        </li>
+                        <li id="menu-item3">
+                            <a href="#" target="_blank">Жидкости для заправки</a>
+                        </li>
+                        <li id="menu-item4">
+                            <a href="#" target="_blank">Аккумуляторы и атомайзеры</a>
+                        </li>
+                        <li id="menu-item5">
+                            <a href="#" target="_blank">Картриджи</a>
+                        </li>
+                        <li id="menu-item6">
+                            <a href="#" target="_blank">Зарядные устройства</a>
+                        </li>
+                        <li id="menu-item7">
+                            <a href="#" target="_blank">Аксессуары</a>
+                        </li>
+                        <li id="menu-item8">
+                            <a href="#" target="_blank">Подарочные наборы </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="news">
+                    <p class="news-title title">Новости</p>
+                    <ul id="news-menu">
+                        <li>
+                            <a href="#" target="_blank">Поздравительная речь президента международной корпорации Хуа Шэн господина Ли Вея в Международный…</a>
+                            <span class="news-date">2010-03-03</span>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Собрание правления киевского филиала</a>
+                            <span class="news-date">2010-02-27</span>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Петропавловскому офису международной корпорации Хуа Шэнисполнился 1 год</a>
+                            <span class="news-date">2010-02-23</span>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Проведение церемонии награждения в бишкекском филиале</a>
+                            <span class="news-date">2010-02-22</span>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Сотрудники иркутского филиала отметили китайский новый год </a>
+                            <span class="news-date">2010-02-15</span>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Празднование китайского нового года в одесском филиале</a>
+                            <span class="news-date">2010-02-14</span>
+                        </li>
+                        <li>
+                            <a id="news-archive" href="#">Архив новостей</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <ul id="content-items" class="flex">
+                    <li class="content-item">
+                        <a href="#" target="_blank">
+                            <img class="content-item-img" src="assets/item1.jpg" alt="Электронные сигареты">
+                            <span class="content-item-name">Электронные сигареты</span>
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a href="#" target="_blank">
+                            <img class="content-item-img" src="assets/item2.jpg" alt="Трубки">
+                            <span class="content-item-name">Трубки</span>
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a href="#" target="_blank">
+                            <img class="content-item-img" src="assets/item3.jpg" alt="Жидкости для заправки">
+                            <span class="content-item-name">Жидкости для заправки</span>
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a href="#" target="_blank">
+                            <img class="content-item-img" src="assets/item4.jpg" alt="Аккумуляторы и атомайзеры">
+                            <span class="content-item-name">Аккумуляторы и атомайзеры</span>
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a href="#" target="_blank">
+                            <img class="content-item-img" src="assets/item5.jpg" alt="Картриджи">
+                            <span class="content-item-name">Картриджи</span>
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a href="#" target="_blank">
+                            <img class="content-item-img" src="assets/item6.jpg" alt="Зарядные устройства">
+                            <span class="content-item-name">Зарядные устройства</span>
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a href="#" target="_blank">
+                            <img class="content-item-img" src="assets/item7.jpg" alt="Аксессуары">
+                            <span class="content-item-name">Аксессуары</span>
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a href="#" target="_blank">
+                            <img class="content-item-img" src="assets/item8.jpg" alt="Подарочные наборы">
+                            <span class="content-item-name">Подарочные наборы </span>
+                        </a>
+                    </li>
+                </ul>
+                <div id="description">
+                    <h4 id="description-title">Высокое качество японских ножей</h4>
+                    <p class="paragraph">
+                        Кухонные японские ножи (ножи masahiro, касуми, хаттори) известных торговых марок уже завоевали популярность благодаря своей
+                        прочности и уникальным качествам - остроте и долговечности заточки. Японские ножи (ножи касуми, масахиро,
+                        хаттори, кухонные ножи из дамасской стали) - это профессиональные поварские инструменты, секреты
+                        производства которых передаются и шлифуются мастерами из поколения в поколение. Эти японские ножи
+                        обладают особым значением - они своего рода статус шеф-повара, в Японии обладание таким ножом считалось
+                        показателем высокого мастерства в поварском деле.
+                    </p>
+                    <p class="paragraph">
+                        Сегодня японские ножи соединили в себе древнейшие традиции изготовления самурайских мечей и инновационные технологии и, именно
+                        поэтому японские ножи обладают уникальными свойствами. Сделаны японские ножи только из высококачественных
+                        материалов. Клинок японского ножа делают из высокоуглеродистой стали, что обеспечивает его высокую
+                        прочность и надежность. Следует отметить, что японские ножи эргономичны по своему дизайну, что обеспечивает
+                        удобство и комфорт в работе. Японские ножи суперострые и после заточки очень долго не тупятся, благодаря
+                        этому уникальному качеству они получили широкую известность. Японские ножи - это прекрасный выбор,
+                        который говорит о требовательности покупателя к высокому качеству ножа и о его превосходном вкусе.
+                        Кстати, нужно отметить, что японские ножи предназначены не только для японской, но и для европейской,
+                        а также любой другой кухни. В известных ресторанах крупнейших городов во всем мире используют именно
+                        японские ножи. Японские ножи -это профессиональные инструменты для японской кухни (купить японские
+                        ножи Вы можете у нас).
+                    </p>
+                    <p class="paragraph">
+                        Интернет магазин "Chef" предлагает купить японские ножи (ножи касуми, масахиро), нож для суши. У нас есть японские ножи из
+                        дамасской стали (ножи masahiro, касуми). Дамасская сталь - это не просто причудливый узор на лезвии
+                        ножа, это технология, сочетающая твердую сталь сердцевины клинка для сохранения остроты ножа и множество
+                        слоев мягкой стали, которая и создает рисунок при заточке, для придания гибкости и прочности острой,
+                        но хрупкой сердцевине. По этой технологии делались древние острейшие самурайские мечи катаны. Ножи
+                        из дамасской стали прочны, надежны и долговечны, что подтверждено многолетним опытом. Не зря ножи
+                        из дамасской стали бестселлерами продаж. Есть также товары, которые являются результатом современных
+                        научных технологий: титановые, керамические ножи из Японии.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="back">
+        <div class="container">
+            <div class="flex">
+                <div id="logo-footer">
+                    <span>Copyright ©2007-2010</span>
+                    <span>© "
+                        <b>Company</b>", 2010</span>
+
+                    <img class="logo" src="assets/logo-footer.png" alt="лого">
+                    <h1 class="logo-title title-footer">company</h1>
+                </div>
+                <ul id="menu-footer" class="flex">
+                    <li>
+                        <a href="#" target="_blank">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">О компании</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">Доставка и оплата</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">Контакты</a>
+                    </li>
+                </ul>
+                <div id="meta-info">
+                    <span>Разработка сайта -
+                        <a href="https://itconstruct.ru/">ITConstruct</a>
+                    </span>
+                    <img src="assets/metric.jpg" alt="метрика">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
