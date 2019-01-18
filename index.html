@@ -36,11 +36,11 @@
                 <div id="submenu" class="flex">
                     <div id="auth" class="flex">
                         <form id="auth-form" action="">
-                            <label class="label-auth"> Логин:
+                            <label id="login" class="label-auth"> Логин:
                                 <input class="input-auth" type="text">
                             </label>
-                            <label class="label-auth"> Пароль:
-                                <input class="input-auth" type="text">
+                            <label id="password" class="label-auth"> Пароль:
+                                <input class="input-auth" type="password">
                             </label>
                             <button id="auth-button" class="log-on distance">Войти</button>
                         </form>
@@ -57,8 +57,8 @@
                         <img class="basket-icon" src="assets/icon.png" alt="значок корзины">
                         <span class="basket-info">
                             В
-                            <a href="#" target="_blank">корзине </a>
-                            товаров - 12
+                            <a href="#" target="_blank">корзине</a>
+                            товаров <span id="hyphen">—</span> 12
                         </span>
                     </div>
                 </div>
@@ -75,11 +75,11 @@
                 <li id="catalog-desktop">
                     <a href="#" target="_blank">Каталог</a>
                 </li>
-                <li id="catalog-mobile">
-                    <button id="catalog-button">Каталог</button>
-                </li>
                 <li>
                     <a href="#" target="_blank">О компании</a>
+                </li>
+                <li id="catalog-mobile">
+                    <button id="catalog-button">Каталог</button>
                 </li>
                 <li>
                     <a href="#" target="_blank">Новости</a>
@@ -225,16 +225,16 @@
                         материалов. Клинок японского ножа делают из высокоуглеродистой стали, что обеспечивает его высокую
                         прочность и надежность. Следует отметить, что японские ножи эргономичны по своему дизайну, что обеспечивает
                         удобство и комфорт в работе. Японские ножи суперострые и после заточки очень долго не тупятся, благодаря
-                        этому уникальному качеству они получили широкую известность. Японские ножи - это прекрасный выбор,
+                        этому уникальному качеству они получили широкую известность. <span id="data1">Японские ножи - это прекрасный выбор,
                         который говорит о требовательности покупателя к высокому качеству ножа и о его превосходном вкусе.
                         Кстати, нужно отметить, что японские ножи предназначены не только для японской, но и для европейской,
                         а также любой другой кухни. В известных ресторанах крупнейших городов во всем мире используют именно
                         японские ножи. Японские ножи -это профессиональные инструменты для японской кухни (купить японские
-                        ножи Вы можете у нас).
+                        ножи Вы можете у нас).</span> 
                     </p>
                     <p class="paragraph">
-                        Интернет магазин "Chef" предлагает купить японские ножи (ножи касуми, масахиро), нож для суши. У нас есть японские ножи из
-                        дамасской стали (ножи masahiro, касуми). Дамасская сталь - это не просто причудливый узор на лезвии
+                        <span id="data2">Интернет магазин "Chef" предлагает купить японские ножи (ножи касуми, масахиро), нож для суши. У нас есть японские ножи из
+                        дамасской стали (ножи masahiro, касуми).</span>  Дамасская сталь - это не просто причудливый узор на лезвии
                         ножа, это технология, сочетающая твердую сталь сердцевины клинка для сохранения остроты ножа и множество
                         слоев мягкой стали, которая и создает рисунок при заточке, для придания гибкости и прочности острой,
                         но хрупкой сердцевине. По этой технологии делались древние острейшие самурайские мечи катаны. Ножи
@@ -251,9 +251,7 @@
             <div class="flex">
                 <div id="logo-footer">
                     <span>Copyright ©2007-2010</span>
-                    <span>© "
-                        <b>Company</b>", 2010</span>
-
+                    <span>© "<b>Company</b>", 2010</span>
                     <img class="logo" src="assets/logo-footer.png" alt="лого">
                     <h1 class="logo-title title-footer">company</h1>
                 </div>
@@ -274,11 +272,11 @@
                         <a href="#" target="_blank">Доставка и оплата</a>
                     </li>
                     <li>
-                        <a href="#" target="_blank">Контакты</a>
+                        <a id="menu-last-link" href="#" target="_blank">Контакты</a>
                     </li>
                 </ul>
                 <div id="meta-info">
-                    <span>Разработка сайта -
+                    <span>Разработка сайта —
                         <a href="https://itconstruct.ru/">ITConstruct</a>
                     </span>
                     <img src="assets/metric.jpg" alt="метрика">
