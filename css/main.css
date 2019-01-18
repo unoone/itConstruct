@@ -189,22 +189,21 @@ header {
     text-decoration: underline;
 }
 .log-on {
-    color:#f6f6f6;
-    font-size:14px;
+    color: #f6f6f6;
+    font-size: 14px;
     font-family: 'Tahoma, sans-serif';
     font-weight: bold;
     margin-left: 7px;
 }
-#login.log-on {
-    display: none
+#sign-in {
+    display: none;
+    margin-left: 21px;
 }
 .registation {
-    /* margin-top: -1px; */
     margin-left: 13px;
-    /* align-items: center; */
 }
 #basket {
-    margin-left:auto;
+    margin-left: auto;
     margin-right: 28px;
     color: #f6f6f6;
 }
@@ -212,7 +211,7 @@ header {
     margin-right: 9px;
 }
 .basket-info a {
-    color:#ffffff;
+    color: #ffffff;
 }
 .underline {
     text-decoration: underline;
@@ -220,7 +219,7 @@ header {
 .basket-info {
     margin-top: 5px;
     color: #ffffff;
-    font-size:12px;
+    font-size: 12px;
     font-family: ArialRegular, sans-serif;
 }
 /* меню */
@@ -235,11 +234,10 @@ header {
     background: url('../assets/back-menu.jpg') no-repeat center top / cover;
 }
 #menu-button {
-    display:none;
+    display: none;
 }
 #menu {
-    display:flex;
-    /* justify-content: space-between; */
+    display: flex;
     padding: 16px 0 16px 23px;
 }
 #menu li:not(:nth-child(7)) {
@@ -493,7 +491,7 @@ footer {
     #auth-form {
         display: none;
     }
-    #login.log-on {
+    #sign-in {
         display: flex;
     }
     #auth {

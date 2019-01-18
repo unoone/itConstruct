@@ -34,7 +34,6 @@ $(document).ready(function () {
     }
     const main_content_mobile = () => {
         $('#content-items').after($('#side-menu'));
-        console.log( $("#news-menu>li:nth-child(1) a"));
         $("#news-menu>li:nth-child(1) a").html('Поздравительная речь президента международной корпорации Хуа Шэн господина Ли Вея в Международн…');
         $("#news-menu>li:nth-child(5) a").html('Сотрудники иркутского филиала отметили китайский новый');
     }
