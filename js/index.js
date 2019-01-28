@@ -1,17 +1,15 @@
 $(document).ready(function () {
     const show_mobile_version = () => {
         logo_mobile();
+        hyphen_mobile();
         menu_mobile();
-        $('#hyphen').html('-');
-        $('#hyphen').css('display', "inline");
         main_content_mobile();
         description_mobile();
     }
     const show_desktop_version = () => {
         logo_desktop();
+        hyphen_desktop();
         menu_desktop();
-        $('#hyphen').html('—');
-        $('span#hyphen').css('display', "inline");
         main_content_desktop();
         description_desktop();
     }
@@ -19,11 +17,15 @@ $(document).ready(function () {
         $('#phone-number').insertBefore($('#email'));
         $('.logo-wrapper').append($('.contacts')).append($('.info-title'));
     }
+    const hyphen_mobile = () => {
+        $('#hyphen').html('-');
+        $('#hyphen').css('display', "inline");
+    }
     const menu_mobile = () => {
         $('#menu').css('display', 'none');
         $('#catalog-menu').css('display', 'none');
         $('#catalog-mobile').append($('#catalog-menu'));
-        $("#menu>li:nth-child(6)").insertBefore($("#menu>li:nth-child(5)"));
+        $("#menu-delivery").insertBefore($("#menu-news"));
         replace_in_catalog_menu_mobile();
     }
     const replace_in_catalog_menu_mobile = () => {
@@ -48,9 +50,13 @@ $(document).ready(function () {
         $('.info').append($('.contacts'));
         $('.title-wrapper').append($('.info-title'));
     }
+    const hyphen_desktop = () => {
+        $('#hyphen').html('—');
+        $('#hyphen').css('display', "inline");
+    }
     menu_desktop = () => {
         $('#menu').css('display', 'flex');
-        $("#menu>li:nth-child(6)").insertBefore($("#menu>li:nth-child(5)"));
+        $("#menu-news").insertBefore($("#menu-delivery"));
         replace_in_catalog_desktop();
     }
     const replace_in_catalog_desktop = () => {
@@ -87,8 +93,7 @@ $(document).ready(function () {
     var win_w = $(window).width();
     if (win_w <= 480) {
         show_mobile_version();
-    }
-    if (win_w > 480) {
+    } else {
         show_desktop_version();
     }
 
